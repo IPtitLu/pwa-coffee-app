@@ -1,4 +1,4 @@
-const staticDevCoffee = "dev-dog-site-v1";
+const staticDevDogs = "dev-dog-site-v1";
 const assets = [
   "/",
   "/index.html",
@@ -17,7 +17,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(staticDevDogs).then(cache => {
       cache.addAll(assets);
     })
   );
