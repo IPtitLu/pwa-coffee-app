@@ -1,1 +1,1 @@
-# pwa-coffee-app
+# pwa-dogs-app
